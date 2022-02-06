@@ -76,18 +76,18 @@ $camaba = query("SELECT * FROM calon_mhs WHERE id=$id");
       <hr>
 
       <ul class="list-group">
-        <li class="list-group-item active"><?= $camaba['nama']; ?></li>
-        <li class="list-group-item">alamat : <?= $camaba['alamat']; ?></li>
-        <li class="list-group-item">jenis kelamin : <?= $camaba['jenis_kelamin']; ?></li>
-        <li class="list-group-item">agama : <?= $camaba['agama']; ?></li>
-        <li class="list-group-item">sekolah asal : <?= $camaba['sekolah-asal']; ?></li>
-        <li class="list-group-item"><img src="image/<?= $camaba['foto_maba']; ?>" alt="" width="200px"></li>
-        <li class="list-group-item">
-          <a href="edit.php?id=<?= $cmb['id'];  ?>" class="btn btn-warning" role="button">Edit</a> |
-          <a href="hapus.php?id=<?= $cmb['id'];  ?>" class="btn btn-danger" role="button">Hapus</a> |
-          <a href="index.php" class="btn btn-primary" role="button">Kembali</a>
-        </li>
-      </ul>
+          <li class="list-group-item active"><?= $camaba['nama']; ?></li>
+          <li class="list-group-item">alamat : <?= $camaba['alamat']; ?></li>
+          <li class="list-group-item">jenis kelamin : <?= $camaba['jenis_kelamin']; ?></li>
+          <li class="list-group-item">agama : <?= $camaba['agama']; ?></li>
+          <li class="list-group-item">sekolah asal : <?= $camaba['sekolah-asal']; ?></li>
+          <li class="list-group-item"><img src="image/<?= $camaba['foto_maba']; ?>" alt="" width="200px"></li>
+          <li class="list-group-item">
+            <a href="edit.php?id=<?= $cmb['id'];  ?>" class="btn btn-warning" role="button">Edit</a> |
+            <a href="hapus.php?id=<?= $cmb['id'];  ?>" class="btn btn-danger" role="button">Hapus</a> |
+            <a href="index.php" class="btn btn-primary" role="button">Kembali</a>
+          </li>
+        </ul>
     </div>
   </div>
 
